@@ -3,12 +3,12 @@
     {
       "content": "If it hurts, do it more often",
       "id": "47145",
-      "votes": 1
+      "votes": 0
     },
     {
       "content": "Adding manpower to a late software project makes it later!",
       "id": "21149",
-      "votes": 1
+      "votes": 0
     },
     {
       "content": "The first 90 percent of the code accounts for the first 10 percent of the development time...The remaining 10 percent of the code accounts for the other 90 percent of the development time.",
@@ -29,41 +29,6 @@
       "content": "Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.",
       "id": "98312",
       "votes": 0
-    },
-    {
-      "content": "this is a new note",
-      "votes": 2,
-      "id": "_paI2Wf_1M4"
-    },
-    {
-      "content": "this a prueba",
-      "votes": 0,
-      "id": "O0hoU6-LBHg"
-    },
-    {
-      "content": "afdafasdfdas",
-      "votes": 1,
-      "id": "j1EBFVXJi4E"
-    },
-    {
-      "content": "adsfasfaf",
-      "votes": 0,
-      "id": "bZmE-4d0Esg"
-    },
-    {
-      "content": "fasdfaf",
-      "votes": 0,
-      "id": "6e9tvHxxRQI"
-    },
-    {
-      "content": "fsdd",
-      "votes": 0,
-      "id": "Rp-JK3ViLbg"
-    },
-    {
-      "content": "sgasgagassag",
-      "votes": 0,
-      "id": "c4w5shaMdio"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
