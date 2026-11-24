@@ -9,13 +9,11 @@ const AnecdoteList = () => {
 
   const vote = async (anecdote) => {
     await addVote(anecdote.id)
-    setNotification(`You voted '${anecdote.content}'`)
+    setNotification(`you voted '${anecdote.content}'`)
   }
 
   const handleDelete  = async (anecdote) => {
-    if(window.confirm(`Remove anecdote ${anecdote.content}`)){
-      await deleteAnecdote(anecdote.id)
-    }
+    await deleteAnecdote(anecdote.id)
   }
 
   return (
