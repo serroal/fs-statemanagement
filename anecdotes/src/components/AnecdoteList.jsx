@@ -4,8 +4,8 @@ const AnecdoteList = () => {
   const anecdotes = useAnecdotes()
   const { addVote } = useAnecdoteActions()
 
-  const vote = (id) => {
-    addVote(id)
+  const vote = async (id) => {
+    await addVote(id)
   }
 
   return (
