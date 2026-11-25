@@ -19,7 +19,10 @@ export const useAnecdotes = () => {
       const anecdotes = queryClient.getQueryData(['anecdotes'])
       queryClient.setQueryData(['anecdotes'], [...anecdotes, newAnecdote])
       showNotification(`anecdote '${newAnecdote.content}' added`)
-    }
+    },
+    onError: (error) => {
+      showNotification(error.message)
+    },
   })
 
   const updateAnecdoteMutation = useMutation({
