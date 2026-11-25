@@ -1,11 +1,10 @@
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query'
-import { useContext } from 'react'
-import NotificationContext from '../NotificationContext'
+import useNotify from '../hooks/useNotify'
 import { getAnecdotes, createAnecdote, updateAnecdote } from '../requests'
 
 export const useAnecdotes = () => {
   const queryClient = useQueryClient()
-  const { showNotification } = useContext(NotificationContext)
+  const { showNotification } = useNotify()
 
   const { isPending, isError, data } = useQuery({
     queryKey: ['anecdotes'],
